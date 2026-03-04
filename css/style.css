@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../font/Montserrat-VariableFont_wght.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
 
 :root{
     --primary-color: #B81515;
