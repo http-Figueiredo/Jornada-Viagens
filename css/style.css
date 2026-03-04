@@ -1,15 +1,24 @@
 
 :root{
+    --primary-color: #B81515;
+    --secondary-color: #8F0101;
+
     --background-primary-color: #ffffff;
     --background-secondary-color: #000000;
     --background-tertiary-color: #F5F5F5;
 
-    --button-primary-color: #B81515;
-    --button-secondary-color: #8F0101;
 
     --text-primary-color:#222222;
     --text-secondary-color:#ffffff;
+
+    --
 }
+
+/* Exemplo de uso: 
+h1{
+    color: var(--primary-color)
+}
+*/
 
 * {
     padding: 0;
