@@ -7,8 +7,8 @@
 }
 
 :root{
-    --primary-color: #B81515;
-    --secondary-color: #8F0101;
+    --primary-color: #8F0101;
+    --secondary-color: #B81515;
 
     --background-primary-color: #ffffff;
     --background-secondary-color: #000000;
@@ -17,9 +17,16 @@
 
     --text-primary-color:#222222;
     --text-secondary-color:#ffffff;
-
-    --
+    
+    --title-font-weigth: 700;
+    --header-font-weigth: 500;
+    --text-font-weigth: 400;
 }
+/*
+header: estatico medium e bold quando passar cursor e bold+sublinhado quando estiver na pagina
+texto: regular
+titulos: bold
+*/
 
 /* Exemplo de uso: 
 h1{
