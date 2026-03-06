@@ -21,11 +21,6 @@
     --header-font-weigth: 500;
     --text-font-weigth: 400;
 }
-/*
-header: estatico medium e bold quando passar cursor e bold+sublinhado quando estiver na pagina
-texto: regular
-titulos: bold
-*/
 
 /* Exemplo de uso: 
 h1{
@@ -37,4 +32,8 @@ h1{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+body{
+    font-family: "Montserrat";
 }

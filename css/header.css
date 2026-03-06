@@ -3,8 +3,9 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     padding: 38px 48px;
+    position: relative;
 }
 
 .logo {
@@ -17,7 +18,6 @@ header{
 .navigation-menu {
     width: 24px;
     height: 16px;
-    margin-top: 24px;
 }
 
 nav {
@@ -26,4 +26,23 @@ nav {
 
 #menu:checked ~ nav{
     display:block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: var(--background-secondary-color);
+}
+
+.navigation-options ul{
+    list-style:none;
+    font-weight: var(--header-font-weigth);
+}
+
+.navigation-options ul li{
+    margin: 16px 0 16px 48px;
+}
+
+.navigation-options ul li a{
+    color: var(--text-secondary-color);
+    text-decoration: none;
 }
