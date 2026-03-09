@@ -8,19 +8,14 @@ header{
     position: relative;
 }
 
-.logo {
+.logo{
     display: inline-block;
     width: 68px;
     height: 64px;
 
 }
 
-.navigation-menu {
-    width: 24px;
-    height: 16px;
-}
-
-nav {
+.navigation-options{
     display: none;
 }
 
@@ -35,14 +30,44 @@ nav {
 
 .navigation-options ul{
     list-style:none;
-    font-weight: var(--header-font-weigth);
 }
 
 .navigation-options ul li{
-    margin: 16px 0 16px 48px;
+    margin: 0 0 18px 48px;
 }
 
 .navigation-options ul li a{
     color: var(--text-secondary-color);
     text-decoration: none;
+    font-weight: var(--header-font-weigth);
+    font-size: 24px;
+}
+
+@media screen and (min-width: 768px) {
+
+    header{
+        padding: 38px 60px;
+    }
+
+    .navigation-menu{
+        width: 467px;
+    }
+
+    .navigation-menu label{
+        display: none;
+    }
+
+    .navigation-options{
+        display: block;
+    }
+
+    .navigation-options ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navigation-options ul li{
+        margin: 0;
+    }
 }
