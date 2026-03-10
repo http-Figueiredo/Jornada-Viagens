@@ -12,6 +12,7 @@
     font-weight: var(--text-font-weigth);
     text-align: center;
     margin: 88px auto;
+    line-height: 150%;
 }
 
 @media screen and (min-width:768px) {
