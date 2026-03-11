@@ -13,12 +13,8 @@
     display: inline-block;
     padding: 0;
     margin-bottom: 8px;
-}
-
-.card header p{
     font-size: 20px;
     line-height: 32px;
-    margin-bottom: 8px;
     font-weight: var(--text-font-weigth);
 }
 
@@ -30,10 +26,4 @@
     font-size: 32px;
     display: inline-block;
     margin: 24px 0;
-}
-
-.card footer a{
-    font-size: 20px;
-    line-height: 32px;
-    text-decoration: none;
 }
