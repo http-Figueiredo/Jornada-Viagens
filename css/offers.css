@@ -1,0 +1,99 @@
+.offers-cards{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.card{
+    width: 312px;
+    height: 288px;
+    border-radius: 16px;
+    padding: 24px 16px;
+    text-align: center;
+    font-weight: var(--title-font-weigth);
+    color: var(--text-secondary-color);
+}
+
+.card header{
+    background: transparent;
+    display: inline-block;
+    padding: 0;
+    margin-bottom: 8px;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: var(--text-font-weigth);
+}
+
+.card h3{
+    font-size: 40px;
+}
+
+.card h3 span{
+    font-size: 32px;
+    display: inline-block;
+    margin: 24px 0;
+}
+
+#card-japan{
+    background: url(../img/mobile/imagem-cartao-japao-mobile.png) no-repeat;
+    background-size: cover;
+}
+
+#card-sanAndreas{
+    background: url(../img/mobile/imagem-cartao-sanAndreas-mobile.png) no-repeat;
+    background-size: cover;
+}
+
+#card-paraiba{
+    background: url(../img/mobile/imagem-cartao-paraiba-mobile.png) no-repeat;
+    background-size: cover;
+}
+
+#card-manaus{
+    background: url(../img/mobile/imagem-cartao-manaus-mobile.png) no-repeat;
+    background-size: cover;
+    margin-bottom: 88px;
+}
+
+@media screen and (min-width:768px){
+    .offers-cards{
+    display: grid;
+    grid-template-columns: repeat(2, 312px);
+    align-items: flex-start;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .offers-cards{
+    display: grid;
+    grid-template-columns: repeat(2, 480px);
+    }
+    
+    .card{
+    width: 480px;
+    height: 308px;
+    }
+    
+    .card h3{
+    font-size: 48px;
+    }
+
+    .card h3 span{
+    font-size: 40px;
+    }
+}
+
+@media screen and (min-width:1920px){
+    
+    .offers-cards{
+    display: grid;
+    grid-template-columns: repeat(2, 600px);
+    }
+
+    .card{
+    width: 600px;
+    }
+}
