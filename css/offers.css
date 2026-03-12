@@ -2,7 +2,6 @@
     width: 312px;
     height: 288px;
     border-radius: 16px;
-    background-color: black;
     padding: 24px 16px;
     text-align: center;
     font-weight: var(--title-font-weigth);
@@ -10,6 +9,7 @@
 }
 
 .card header{
+    background: transparent;
     display: inline-block;
     padding: 0;
     margin-bottom: 8px;
@@ -26,6 +26,26 @@
     font-size: 32px;
     display: inline-block;
     margin: 24px 0;
+}
+
+#card-japan{
+    background: url(../img/mobile/imagem-cartao-japao-mobile.png) no-repeat;
+    background-size: cover;
+}
+
+#card-sanAndreas{
+    background: url(../img/mobile/imagem-cartao-sanAndreas-mobile.png) no-repeat;
+    background-size: cover;
+}
+
+#card-paraiba{
+    background: url(../img/mobile/imagem-cartao-paraiba-mobile.png) no-repeat;
+    background-size: cover;
+}
+
+#card-manaus{
+    background: url(../img/mobile/imagem-cartao-manaus-mobile.png) no-repeat;
+    background-size: cover;
 }
 
 @media screen and (min-width: 1024px){
