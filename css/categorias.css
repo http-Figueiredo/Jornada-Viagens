@@ -1,6 +1,6 @@
 .categories-search{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -29,6 +29,14 @@
     margin-bottom: 24px;
 }
 
+.search-by h4{
+    font-size: 28px;
+    margin: auto 16px;
+    font-weight: var(--title-font-weigth);
+    font-family: "Montserrat";
+    color: var(--text-primary-color);
+}
+
 @media screen and (min-width: 1024px){
     
     .search-by button:hover{
@@ -36,4 +44,7 @@
     background-color: #E5E5E5;
     }
     
+    .search-by{
+        width: 280px;
+    }
 }
