@@ -37,13 +37,29 @@
     color: var(--text-primary-color);
 }
 
+@media screen and (min-width:768px) {
+    .categories-search{
+        display: grid;
+        grid-template-columns: repeat(2, 312px);
+    }
+}
+
 @media screen and (min-width: 1024px){
-    
+
     .search-by button:hover{
     cursor: pointer;
     background-color: #E5E5E5;
     }
-    
+
+}
+
+@media screen and (min-width: 1440px) {
+        
+    .categories-search{
+        display: flex;
+        flex-direction: row;
+    }
+       
     .search-by{
         width: 280px;
     }
