@@ -107,14 +107,14 @@
 
 }
 
-@media screen and (min-width:1920px){
+@media screen and (min-width:1440px){
     
     .offers-cards{
     display: grid;
-    grid-template-columns: repeat(2, 600px);
+    grid-template-columns: repeat(2, 588px);
     }
 
     .card{
-    width: 600px;
+    width: 588px;
     }
 }

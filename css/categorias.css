@@ -46,6 +46,15 @@
 }
 
 @media screen and (min-width: 1024px){
+    
+    .search-by{
+        width: 480px;
+    }
+
+    .categories-search{
+        display: grid;
+        grid-template-columns: repeat(2, 480px);
+    }
 
     .search-by button:hover{
     cursor: pointer;
@@ -59,7 +68,6 @@
     .categories-search{
         display: flex;
         flex-direction: row;
-        gap:34px;
         margin-bottom: 104px;
     }
        

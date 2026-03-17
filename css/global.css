@@ -40,7 +40,8 @@ body{
 }
 
 section{
-    
+    width: 312px;
+    margin: 0 auto;
 }
 
 .section-title h2{
@@ -71,13 +72,31 @@ section{
 }
 
 @media screen and (min-width: 768px){
+    
+    section{
+    width: 648px;
+    }
+    
     .button:hover{
         background-color: var(--primary-color);
     }
 }
 
 @media screen and (min-width: 1024px){
+    
+    section{
+    width: 984px;
+    }
+    
     .section-title hr{
         margin: 16px auto 64px;
     }
+}
+
+@media screen and (min-width:1440px){
+    
+    section{
+        width: 1200px;
+    }
+
 }
