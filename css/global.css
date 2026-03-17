@@ -63,12 +63,14 @@ section{
     height: 64px;
     display: inline-block;
     font-size: 20px;
+    font-weight: var(--title-font-weigth);
     line-height: 32px;
     text-decoration: none;
     color: var(--text-secondary-color);
     padding: 16px 0;
     background-color: var(--secondary-color);
     border-radius: 8px;
+    text-align: center;
 }
 
 @media screen and (min-width: 768px){
