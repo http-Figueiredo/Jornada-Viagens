@@ -1,6 +1,6 @@
 .categories-search{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -38,22 +38,10 @@
     color: var(--text-primary-color);
 }
 
-@media screen and (min-width:768px) {
-    .categories-search{
-        display: grid;
-        grid-template-columns: repeat(2, 312px);
-    }
-}
-
 @media screen and (min-width: 1024px){
     
     .search-by{
         width: 480px;
-    }
-
-    .categories-search{
-        display: grid;
-        grid-template-columns: repeat(2, 480px);
     }
 
     .search-by button:hover{
@@ -66,8 +54,6 @@
 @media screen and (min-width: 1440px) {
         
     .categories-search{
-        display: flex;
-        flex-direction: row;
         margin-bottom: 104px;
     }
        
