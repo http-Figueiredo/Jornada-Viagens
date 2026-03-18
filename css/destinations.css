@@ -64,3 +64,10 @@
         background-size: cover;
     }
 }
+
+@media screen and (min-width:1440px){
+
+    .destinations-cards{
+        width: 580px;
+    }
+}
