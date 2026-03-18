@@ -99,7 +99,7 @@ header.hero-header{
     }
 }
 @media screen and (min-width:1700px) {
-    header{
+    header.hero-header{
         padding:38px 160px;
     }
 }
