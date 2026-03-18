@@ -41,7 +41,7 @@ body{
 
 section{
     width: 312px;
-    margin: 0 auto;
+    margin: 0 auto 88px;
 }
 
 .section-title h2{
@@ -63,18 +63,20 @@ section{
     height: 64px;
     display: inline-block;
     font-size: 20px;
+    font-weight: var(--title-font-weigth);
     line-height: 32px;
     text-decoration: none;
     color: var(--text-secondary-color);
     padding: 16px 0;
     background-color: var(--secondary-color);
     border-radius: 8px;
+    text-align: center;
 }
 
 @media screen and (min-width: 768px){
     
     section{
-    width: 648px;
+        width: 648px;
     }
     
     .button:hover{
@@ -85,7 +87,8 @@ section{
 @media screen and (min-width: 1024px){
     
     section{
-    width: 984px;
+        width: 984px;
+        margin-bottom: 104px;
     }
     
     .section-title hr{

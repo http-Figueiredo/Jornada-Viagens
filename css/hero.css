@@ -15,7 +15,7 @@ section.hero{
     font-size: 20px;
     font-weight: var(--text-font-weigth);
     text-align: center;
-    margin: 88px auto;
+    margin: 88px auto 0;
     line-height: 150%;
 }
 
@@ -42,7 +42,7 @@ section.hero{
     
     .hero h2{
         width: 984px;
-        margin: 104px auto;
+        margin: 104px auto 0;
     }
 }
 
