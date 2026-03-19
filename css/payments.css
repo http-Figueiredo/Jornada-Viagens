@@ -1,0 +1,13 @@
+.payments-content-text h4{
+    font-size: 28px;
+    font-weight: var(--title-font-weigth);
+
+}
+
+.payments-content-text p{
+    font-size: 20px;
+    line-height: 160%;
+    font-weight: var(--text-font-weigth);
+    margin: 24px 0;
+
+}
