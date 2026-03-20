@@ -45,3 +45,25 @@
     height: 182px;
     grid-column: span 2;
 }
+
+@media screen and (min-width:768px){
+
+    #payments-img-suitcases{
+    background: url(../img/tablet/malas-arrumadas-tablet-desktop.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    }
+
+    #payments-img-passports{
+        background: url(../img/tablet/cruzando-passaportes-tablet-desktop.png) no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    #payments-img-goldenGate{
+        background: url(../img/tablet/posando-com-golden-gate-ao-fundo-tablet-desktop.png) no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+}
