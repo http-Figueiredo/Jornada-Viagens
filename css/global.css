@@ -45,6 +45,7 @@ section{
 }
 
 .section-title h2{
+    width: 312px;
     font-size: 32px;
     font-weight: var(--title-font-weigth);
     text-align: center;
@@ -79,6 +80,10 @@ section{
         width: 648px;
     }
     
+    .section-title h2{
+        width: 100%;
+    }
+
     .button:hover{
         background-color: var(--primary-color);
     }

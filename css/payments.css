@@ -1,0 +1,79 @@
+.payments-content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.payments-content-text h4{
+    font-size: 28px;
+    font-weight: var(--title-font-weigth);
+}
+
+.payments-content-text{
+    flex: 1;
+    font-size: 20px;
+    line-height: 160%;
+    font-weight: var(--text-font-weigth);
+    margin: 24px 0;
+}
+
+.payments-content-imgs{
+    flex: 2;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px
+}
+
+.payments-img{
+    height: 254px;
+}
+
+#payments-img-suitcases{
+    background: url(../img/mobile/malas-arrumadas-mobile.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#payments-img-passports{
+    background: url(../img/mobile/cruzando-passaportes-mobile.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#payments-img-goldenGate{
+    background: url(../img/mobile/posando-com-golden-gate-ao-fundo-mobile.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 182px;
+    grid-column: span 2;
+}
+
+@media screen and (min-width:768px){
+
+    #payments-img-suitcases{
+    background: url(../img/tablet/malas-arrumadas-tablet-desktop.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    }
+
+    #payments-img-passports{
+        background: url(../img/tablet/cruzando-passaportes-tablet-desktop.png) no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    #payments-img-goldenGate{
+        background: url(../img/tablet/posando-com-golden-gate-ao-fundo-tablet-desktop.png) no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+}
+
+@media screen and (min-width: 1024px){
+    
+    .payments-content{
+        flex-direction: row;
+    }
+
+}

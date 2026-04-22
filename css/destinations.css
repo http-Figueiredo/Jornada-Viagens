@@ -9,7 +9,7 @@
     justify-content: flex-start;
 }
 
-.destinations-cards h4{
+.destinations-cards h3{
     font-size: 28px;
     margin: 24px 0;
     font-weight: var(--title-font-weigth);
@@ -53,13 +53,13 @@
     }
 
     #destination-img-tokyo{
-        background: url(../img/tokyo-tablet-desktop.jpg) no-repeat;
+        background: url(../img/tablet/tokyo-tablet-desktop.jpg) no-repeat;
         background-position: center;
         background-size: cover;
     }
 
     #destination-img-osaka{
-        background: url(../img/osaka-tablet-desktop.jpg) no-repeat;
+        background: url(../img/tablet/osaka-tablet-desktop.jpg) no-repeat;
         background-position: center;
         background-size: cover;
     }
