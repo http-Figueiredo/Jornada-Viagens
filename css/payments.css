@@ -9,7 +9,8 @@
     font-weight: var(--title-font-weigth);
 }
 
-.payments-content-text p{
+.payments-content-text{
+    flex: 1;
     font-size: 20px;
     line-height: 160%;
     font-weight: var(--text-font-weigth);
@@ -17,6 +18,7 @@
 }
 
 .payments-content-imgs{
+    flex: 2;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 24px
@@ -64,6 +66,14 @@
         background: url(../img/tablet/posando-com-golden-gate-ao-fundo-tablet-desktop.png) no-repeat;
         background-position: center;
         background-size: cover;
+    }
+
+}
+
+@media screen and (min-width: 1024px){
+    
+    .payments-content{
+        flex-direction: row;
     }
 
 }
